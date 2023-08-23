@@ -176,6 +176,35 @@ const secarch = () => {return ({
           }
         ]
       }
+	  {
+        "type": "radiogroup",
+        "id": "f4722a4fdfc44a45be5b5ee8dd7b735f",
+        "title": "This is the sample question where we are checking whether the changes are being reflected in the repo or not????",
+        "titleLocation": "left",
+        "description": "You monitor applications regularly for the correct use of the recommended technologies",
+        "choices": [
+          {
+            "value": 0,
+            "weight": 1,
+            "text": "No"
+          },
+          {
+            "value": 0.25,
+            "weight": 1,
+            "text": "Yes, for some applications"
+          },
+          {
+            "value": 0.5,
+            "weight": 1,
+            "text": "Yes, for at least half of the applications"
+          },
+          {
+            "value": 1,
+            "weight": 1,
+            "text": "Yes, for most or all of the applications"
+          }
+        ]
+      }
     ],
     "title": "Security Architecture",
     "state": "collapsed"
